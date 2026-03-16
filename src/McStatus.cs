@@ -7,6 +7,7 @@ namespace MinecraftStatusApi
     {
         private readonly HttpClient httpClient;
         private readonly string apiUrl = "https://api.mcstatus.io/v2";
+        
         public McStatusApi()
         {
             httpClient = new HttpClient();
